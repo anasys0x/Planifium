@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<reviews>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <!-- ✅ Ajout d'un 2e avis pour IFT2255 pour satisfaire les tests -->
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>student2</author>
+    <difficulty>7</difficulty>
+    <comment>Deuxième avis requis pour les tests.</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>testStudent</author>
+    <difficulty>6</difficulty>
+    <comment>Test comment</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student1</author>
+    <difficulty>7</difficulty>
+    <comment>Good course</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student2</author>
+    <difficulty>8</difficulty>
+    <comment>Very interesting</comment>
+  </review>
+  <review>
+    <courseId>IFT3150</courseId>
+    <author>student3</author>
+    <difficulty>6</difficulty>
+    <comment>Challenging</comment>
+  </review>
+</reviews>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planifium UdeM - Explorateur de cours UdeM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="landingGate" class="landing-gate">
+    <!-- Decorative floating shapes -->
+    <div class="landing-deco landing-deco--1" aria-hidden="true"></div>
+    <div class="landing-deco landing-deco--2" aria-hidden="true"></div>
+    <div class="landing-deco landing-deco--3" aria-hidden="true"></div>
+
+    <div class="landing-card">
+        <p class="landing-kicker">[IFT2255] Genie logiciel</p>
+        <h1>Planifium <span class="accent">UdeM</span></h1>
+        <p class="landing-description">
+            Recherchez des cours UdeM, comparez des options, verifiez l'eligibilite,
+            consultez des resultats et construisez des ensembles sans conflit d'horaire.
+        </p>
+        <ul class="landing-points">
+            <li>Recherche de cours et programmes en direct</li>
+            <li>Comparaison de cours et visualisation des metriques</li>
+            <li>Simulation d'horaires et detection de conflits</li>
+        </ul>
+        <button id="enterAppBtn" class="btn btn-primary landing-cta">Acceder au planificateur</button>
+    </div>
+</section>
+
+<div id="appShell" class="app-shell is-hidden">
+<header class="top-nav">
+    <div class="top-nav-inner">
+        <a href="#" class="brand-wrap" id="brandLink">
+            <div class="brand-dot">P</div>
+            <div class="brand-text">Planifium<span>UdeM</span></div>
+        </a>
+        <div class="header-meta">[UdeM Course Planner]</div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="hero">
+        <h1>Explorateur de cours UdeM</h1>
+        <p>Recherchez, comparez et optimisez vos ensembles de cours sans conflit d'horaire.</p>
+    </section>
+
+    <nav class="tabs" id="mainTabs">
+        <button class="tab active" data-target="section-search">Recherche</button>
+        <button class="tab" data-target="section-tools">Outils</button>
+        <button class="tab" data-target="section-compare">Comparaison</button>
+        <button class="tab" data-target="section-ensembles">Ensembles</button>
+    </nav>
+
+    <section class="section active" id="section-search">
+        <div class="section-header center">
+            <h2>Recherche de cours</h2>
+            <p class="section-desc">Sigle, mot-cle, code programme ou programme + trimestre.</p>
+        </div>
+
+        <div class="search-bar">
+            <div class="search-input-wrap">
+                <span class="search-prompt">&gt;</span>
+                <input type="text" id="keyword" placeholder="IFT2255, ingenierie logicielle, 117510 H25...">
+            </div>
+            <button id="searchBtn" class="btn btn-primary">Rechercher</button>
+        </div>
+
+        <div id="results" class="results-grid">
+            <div class="empty-state">
+                <p>Entrez une recherche pour commencer</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section-tools">
+        <div class="section-header center">
+            <h2>Eligibilite et resultats</h2>
+            <p class="section-desc">Verifiez vos prerequis et consultez les resultats academiques.</p>
+        </div>
+
+        <div class="tool-panel">
+            <div class="form-row">
+                <div class="form-group flex-1">
+                    <label for="toolCourseId">Sigle du cours</label>
+                    <input type="text" id="toolCourseId" placeholder="ex: IFT2255">
+                </div>
+                <div class="form-group">
+                    <label for="toolCycle">Cycle</label>
+                    <select id="toolCycle">
+                        <option value="1">1er cycle</option>
+                        <option value="2">2e cycle</option>
+                        <option value="3">3e cycle</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="toolCompleted">Cours completes</label>
+                <textarea id="toolCompleted" rows="3" placeholder="Un par ligne ou separes par virgules"></textarea>
+            </div>
+
+            <div class="form-row" style="margin-top: 0.6rem;">
+                <button id="btnToolEligibility" class="btn btn-primary">Verifier eligibilite</button>
+                <button id="btnToolResults" class="btn btn-outline">Resultats academiques</button>
+            </div>
+
+            <pre id="toolOutput" class="tool-output" style="display:none;"></pre>
+        </div>
+    </section>
+
+    <section class="section" id="section-compare">
+        <div class="section-header">
+            <div class="section-header-row">
+                <h2>Comparaison de cours</h2>
+                <button id="clearCompareBtn" class="btn btn-ghost btn-sm" style="display:none;">Tout effacer</button>
+            </div>
+            <p class="section-desc">Ajoutez des cours depuis la recherche pour les comparer cote a cote.</p>
+        </div>
+
+        <div id="compareResults" class="results-grid">
+            <div class="empty-state">
+                <p>Ajoutez des cours pour les comparer</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section-ensembles">
+        <div class="section-header">
+            <div class="section-header-row">
+                <h2>Ensembles de cours</h2>
+                <div class="header-actions">
+                    <button id="btnComparerEnsembles" class="btn btn-outline btn-sm" style="display:none;">Comparer</button>
+                    <button id="btnEffacerHoraires" class="btn btn-ghost btn-sm" style="display:none;">Effacer horaires</button>
+                    <button id="btnAjouterEnsemble" class="btn btn-primary btn-sm">+ Ajouter un ensemble</button>
+                </div>
+            </div>
+            <p class="section-desc">Jusqu'a 2 ensembles, max 6 cours chacun.</p>
+        </div>
+
+        <div id="ensemblesContainer" class="ensembles-grid">
+            <div class="empty-state" id="ensemblesEmptyState">
+                <p>Cliquez sur "+ Ajouter un ensemble" pour commencer</p>
+            </div>
+        </div>
+
+        <div id="comparaisonResultat" style="display:none;" class="comparison-result">
+            <h3>Resultat de la comparaison</h3>
+            <div id="comparaisonContent"></div>
+        </div>
+    </section>
+
+</main>
+
+<script src="app.js"></script>
+<script>
+document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        tab.classList.add('active');
+        const target = document.getElementById(tab.dataset.target);
+        if (target) target.classList.add('active');
+    });
+});
+
+const toolOutputEl = document.getElementById('toolOutput');
+const observer = new MutationObserver(() => {
+    toolOutputEl.style.display = toolOutputEl.textContent.trim() ? 'block' : 'none';
+});
+observer.observe(toolOutputEl, { childList: true, characterData: true, subtree: true });
+</script>
+
+</div>
+</body>
+</html>

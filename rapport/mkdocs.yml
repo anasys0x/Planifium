@@ -1,0 +1,38 @@
+
+site_name: IFT2255 - Devoir 3
+site_description: Implémentation de la solution – API REST & CLI
+site_author: Équipe IFT2255
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+plugins:
+  - search
+
+nav:
+  - Accueil: index.md
+  - Conception (mise à jour):
+      - Architecture: conception/architecture.md
+      - Diagramme de classes et de séquence: conception/uml.md
+  - API REST (Backend):
+      - Vue d’ensemble: api/index.md
+      - Endpoints: api/endpoints.md
+      - Validation et erreurs: api/validation.md
+      - Exemples de requêtes: api/exemples.md
+  - UI:
+      - Interface Web: gui/index.md
+      - Bot Discord: gui/discord.md
+  - Tests:
+      - Stratégie de tests: tests/index.md
+      - Oracle de tests: tests/oracle.md
+      - Instructions pour les tests: tests/instruction.md
+  - Documentation:
+      - Manuel utilisateur: documentation/readme.md
+  - Démonstration: demo/demo.md
+

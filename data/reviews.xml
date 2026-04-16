@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<reviews>
+  <!-- 5 Avis sur IFT2255 juste pour tester la condition n >= 5 -->
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>Aym</author>
+    <difficulty>5</difficulty>
+    <comment>La matière est très intéressante. Il y a une certaine charge de travail, mais le cours reste assez facile. Prof sympa.</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>Udeme</author>
+    <difficulty>6</difficulty>
+    <comment>Cours vraiment intéressant, la charge de travail est présente mais raisonnable. Le cours semble facile et le prof est sympa.</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>Anasys</author>
+    <difficulty>7</difficulty>
+    <comment>Matière très intéressante, un peu de travail à fournir mais rien d'excessif. Globalement facile et prof agréable.</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>Halloween Lime</author>
+    <difficulty>6</difficulty>
+    <comment>Le contenu du cours est intéressant. Il y a une charge de travail constante, mais le cours reste accessible. Prof sympa.</comment>
+  </review>
+  <review>
+    <courseId>IFT2255</courseId>
+    <author>Simon Jolin-Barrette</author>
+    <difficulty>5</difficulty>
+    <comment>Cours intéressant avec une charge de travail correcte. Le niveau est plutôt facile et le prof est sympathique.</comment>
+  </review>
+  <!-- 2 Avis sur IFT2035 juste pour tester la condition n >= 5 -->
+  <review>
+    <courseId>IFT2035</courseId>
+    <author>Miklós Csűrös</author>
+    <difficulty>9</difficulty>
+    <comment>Le cours est très exigeant, la matière est complexe et demande beaucoup de travail. Globalement très difficile.</comment>
+  </review>
+  <review>
+    <courseId>IFT2035</courseId>
+    <author>Xerath</author>
+    <difficulty>10</difficulty>
+    <comment>Cours extrêmement difficile, rythme intense et charge de travail très élevée. À prendre seulement si on est très solide.</comment>
+  </review>
+  <!-- 6 Avis sur MAT1978 juste pour tester la condition n >= 5 -->
+  <review>
+    <courseId>MAT1978</courseId>
+    <author>Yasuo</author>
+    <difficulty>8</difficulty>
+    <comment>Cours très difficile, la matière est dense et le rythme est soutenu. Il faut vraiment suivre chaque semaine.</comment>
+  </review>
+  <review>
+    <courseId>MAT1978</courseId>
+    <author>Ahri</author>
+    <difficulty>9</difficulty>
+    <comment>Le cours est vraiment dur, beaucoup de notions abstraites et une charge de travail élevée.</comment>
+  </review>
+  <review>
+    <courseId>MAT1978</courseId>
+    <author>Darius</author>
+    <difficulty>10</difficulty>
+    <comment>Cours extrêmement exigeant, examens difficiles et très peu de répit pendant la session.</comment>
+  </review>
+  <review>
+    <courseId>MAT1978</courseId>
+    <author>Lux</author>
+    <difficulty>8</difficulty>
+    <comment>Matière compliquée et beaucoup de travail à fournir. Le cours est clairement difficile.</comment>
+  </review>
+  <review>
+    <courseId>MAT1978</courseId>
+    <author>Zed</author>
+    <difficulty>9</difficulty>
+    <comment>Rythme intense, devoirs complexes et examens piégeux. Cours dur du début à la fin.</comment>
+  </review>
+  <review>
+    <courseId>MAT1978</courseId>
+    <author>Alena Tsikhanovich</author>
+    <difficulty>10</difficulty>
+    <comment>Курс очень сложный, материал тяжёлый и требует много времени и усилий.</comment>
+  </review>
+  <review>
+    <courseId>POL1000</courseId>
+    <author>anasys0x</author>
+    <difficulty>9</difficulty>
+    <comment>prof sympa</comment>
+  </review>
+  <review>
+    <courseId>IFT1227</courseId>
+    <author>anasys0x</author>
+    <difficulty>7</difficulty>
+    <comment>super cours, prof sympa</comment>
+  </review>
+  <review>
+    <courseId>IFT1227</courseId>
+    <author>anasys0x</author>
+    <difficulty>5</difficulty>
+    <comment>Le cours d'Alena est trop facile, je trouve que ift 1227 est chill, pour la difficulte je dirai 5</comment>
+  </review>
+</reviews>

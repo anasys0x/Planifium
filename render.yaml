@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: planifium-api
+    runtime: docker
+    plan: free
+    rootDir: rest-api
+    dockerfilePath: ./Dockerfile
